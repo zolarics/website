@@ -1,0 +1,13 @@
+---
+title: projects
+layout: layouts/page.html
+---
+<p class="underlined header-text">Projects</p>
+
+{% for project in collections.projects %}
+    <p>
+        <a href="{{ project.url }}">{{ project.data.title }}</a>
+    </p>
+    <p class="small-text">- {{ project.data.description }}</p>
+    <br>
+{% endfor %}

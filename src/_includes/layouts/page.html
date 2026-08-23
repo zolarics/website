@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>zolarics - {{title}}</title>
+    <link rel="stylesheet" href="/_assets/css/global.css">
+    {% if css %}
+    <link rel="stylesheet" href="{{ css }}">
+    {% endif %}
+</head>
+
+<body>
+
+    {% if not hideheader %}
+    <header class="center">
+        <p id="navigation">
+        <a href="/projects">projects</a>
+        <a href="/about">about</a>
+        <a href="/contact">contact</a>
+        <a href="/">home</a>
+        </p>
+        <hr>
+    </header>
+    {% endif %}
+
+    <main>
+        {{content}}
+    </main>
+    
+    {% if not hidefooter %}
+    <footer class="center">
+        <hr>
+        <p class="small-text"> &copy; 2026 zolarics </p>
+    </footer>
+    {% endif %}
+</body>
