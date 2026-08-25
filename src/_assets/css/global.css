@@ -16,17 +16,18 @@ html{
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgb(100,100,100);
+    color: rgba(100, 100, 100, 0.594);
 }
 
 a{
+    font-weight: 600;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     text-decoration: none;
-    color: rgba(142, 186, 212, 0.8);
+    color: rgba(185, 185, 185, 0.750);
 }
 a:hover{
-    color: rgb(150, 195, 221);
+    color: rgb(200, 200, 200);
     font-weight: bold;
 }
 
