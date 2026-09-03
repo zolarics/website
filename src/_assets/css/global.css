@@ -16,7 +16,7 @@ html{
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgba(100, 100, 100, 0.594);
+    color: rgb(125, 125, 125);
 }
 
 a{
@@ -24,7 +24,7 @@ a{
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     text-decoration: none;
-    color: rgba(185, 185, 185, 0.750);
+    color: rgb(125,125,125);
 }
 a:hover{
     color: rgb(200, 200, 200);
