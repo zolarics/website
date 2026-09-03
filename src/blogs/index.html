@@ -1,0 +1,13 @@
+---
+title: blogs
+layout: layouts/page.html
+---
+<p class="underlined header-text">Blogs</p>
+
+{% for blog in collections.blogs %}
+    <p>
+        <a href="{{ blog.url }}">{{ blog.data.title }}</a>
+    </p>
+    <p class="small-text">Published: {{ blog.data.description }}</p>
+    <br>
+{% endfor %}
